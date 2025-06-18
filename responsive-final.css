@@ -8,6 +8,14 @@
     margin: 0 auto;
     padding-top: 25px; /* قللنا المسافة من الأعلى */
   }
+    .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #333;
+    height: auto;
+  }
 
   .logo {
     width: 50px; /* قللنا حجم الشعار */
