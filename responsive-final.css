@@ -1,0 +1,117 @@
+@media screen and (max-width: 768px) {
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px; /* قللنا المسافة من الأعلى */
+  }
+
+  .logo {
+    width: 50px; /* قللنا حجم الشعار */
+    margin-bottom: 8px;
+  }
+
+  #site-title {
+    font-size: 17px; /* تصغير حجم العنوان */
+    margin: 0;
+  }
+
+  #site-desc {
+    font-size: 12px; /* تصغير الوصف */
+    margin-top: 4px;
+  }
+
+  .language-switch {
+    top: 8px;
+    right: 8px;
+    padding: 1px 3px;
+    border-radius: 4px;
+  }
+
+  .language-switch button {
+    padding: 2px 5px;
+    font-size: 10px;
+    margin: 1px;
+    border-radius: 4px;
+  }
+
+  .top-nav {
+    top: 8px;
+    left: 8px;
+    gap: 6px;
+  }
+
+  .top-nav button {
+    font-size: 11px;
+    padding: 5px 8px;
+    border-radius: 4px;
+  }
+
+  .slider {
+    width: 94%;
+    height: 180px; /* قللنا الارتفاع */
+    margin: 16px auto;
+  }
+
+  .slider .list img {
+    border-radius: 5px;
+    border: 4px solid #211e1e;
+  }
+
+  .slider .buttons button {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+  }
+
+  .slider .dots li {
+    width: 6px;
+    height: 6px;
+  }
+
+  .slider .dots li.active {
+    width: 16px;
+  }
+
+  #gallery,
+  #videos {
+    margin: 15px auto;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .gallery-slider,
+  .videos {
+    gap: 15px;
+  }
+
+  .item,
+  .video-item {
+    width: 88%;
+  }
+
+  .item img,
+  .video-item video {
+    border-radius: 6px;
+  }
+
+  .floating-social {
+    bottom: 12px;
+    left: 12px;
+    gap: 10px;
+  }
+
+  .floating-social a {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  footer {
+    font-size: 11px;
+    padding: 10px;
+  }
+}
