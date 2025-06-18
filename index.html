@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شركة RMA Group للرخام والجرانيت</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- ✅ الشريط العلوي -->
+  <header>
+    <div class="top-bar">
+      <div class="language-switch">
+        <button onclick="switchLanguage('ar')">العربية</button>
+        <button onclick="switchLanguage('en')">English</button>
+      </div>
+    
+
+    <!-- ✅ الشعار واسم الموقع -->
+    <div class="center-container">
+      <img src="images/logo.png" alt="RMA Logo" class="logo" />
+      <h1 id="site-title">شركة RMA Group للرخام والجرانيت</h1>
+      <p id="site-desc"
+         data-ar="شركة رائدة في تصدير جميع أنواع الرخام والجرانيت بأفضل جوده"
+         data-en="A leading company in exporting all types of marble & granite with the best quality">
+        شركة رائدة في تصدير جميع أنواع الرخام والجرانيت بأفضل جوده
+      </p>
+    </div>
+
+    <!-- ✅ زرّي الصور والفيديوهات -->
+    <nav class="top-nav">
+      <button onclick="scrollToSection('gallery')" id="btn-gallery">الصور</button>
+      <button onclick="scrollToSection('videos')" id="btn-videos">الفيديوهات</button>
+    </nav>
+  </header>
+
+  <!-- ✅ أيقونات التواصل -->
+  <div class="floating-social">
+    <a href="https://wa.me/201207500590" target="_blank" class="whatsapp" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.facebook.com/share/19DQ7ENqJX/" target="_blank" class="facebook" aria-label="فيسبوك"><i class="fab fa-facebook"></i></a>
+  </div>
+
+  <!-- ✅ السلايدر -->
+  <div class="slider">
+    <div class="list">
+      <div class="item">
+        <img src="images/slide1.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/slide2.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/slide3.jpg" alt="">
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="prev">&#10094;</button>
+      <button id="next">&#10095;</button>
+    </div>
+    <ul class="dots">
+      <li class="active"></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  <!-- ✅ قسم الصور -->
+  <section id="gallery">
+    <h2 id="gallery-title">الصور</h2>
+    <div class="gallery-slider">
+      <div class="item">
+        <img src="images/img1.jpg" alt="رخام 1" />
+        <p class="caption" data-ar="رخام أبيض فاخر" data-en="Luxury White Marble">رخام أبيض فاخر</p>
+      </div>
+      <div class="item">
+        <img src="images/img2.jpg" alt="رخام 2" />
+        <p class="caption" data-ar="جرانيت أسود مصقول" data-en="Polished Black Granite">جرانيت أسود مصقول</p>
+      </div>
+      <div class="item">
+        <img src="images/img3.jpg" alt="رخام 3" />
+        <p class="caption" data-ar="رخام بيج طبيعي" data-en="Natural Beige Marble">رخام بيج طبيعي</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ قسم الفيديوهات -->
+  <section id="videos">
+    <h2 id="videos-title">فيديوهات</h2>
+    <div class="videos">
+      <div class="video-item">
+        <video src="videos/video1.mp4" controls></video>
+        <p class="caption" data-ar="شرح مراحل تصنيع الرخام" data-en="Marble Production Process">شرح مراحل تصنيع الرخام</p>
+      </div>
+      <div class="video-item">
+        <video src="videos/video2.mp4" controls></video>
+        <p class="caption" data-ar="عرض لأحد المشاريع النهائية" data-en="Finished Project Showcase">عرض لأحد المشاريع النهائية</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ الفوتر -->
+  <footer id="site-footer">
+    <p id="footer-text">
+      © 2025 شركة RMA Group للرخام والجرانيت - تواصل معنا: info@rmagroup.com
+    </p>
+  </footer>
+</body>
+</html>
